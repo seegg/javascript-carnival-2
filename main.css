@@ -60,3 +60,8 @@ td {
 .shoes {
   z-index: 1
 }
+
+.mole-active{
+  background-image: url("./whack-a-mole/mole.PNG");
+  background-size: contain;
+}
