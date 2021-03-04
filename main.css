@@ -65,3 +65,49 @@ td {
   background-image: url("./whack-a-mole/mole.PNG");
   background-size: contain;
 }
+
+.selected{
+  z-index: -3;
+  animation-name: bg-fade;
+  animation-duration: 3s;
+}
+
+@keyframes bg-fade {
+  0%{
+    background-color:rgba(216, 160, 168, 1);
+  }
+  70%{
+    background-color: rgba(216, 160, 168, 1);
+  }
+  100%{
+    background-color: rgba(216, 160, 168, 0);
+  }
+  
+}
+
+#head-box{
+  box-sizing: content-box;
+  width: 384px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#body-box{
+  box-sizing: content-box;
+  width: 384px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  top: 200px;
+}
+
+#shoes-box{
+  box-sizing: content-box;
+  width: 384px;
+  height: 90px;
+  position: absolute;
+  left: 0;
+  top: 500px;
+}
